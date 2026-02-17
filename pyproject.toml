@@ -1,0 +1,17 @@
+[project]
+name = "transformer-research"
+version = "0.1.0"
+description = "Research workspace for transformers and LLMs"
+readme = "README.md"
+authors = [
+    { name = "Web Pug", email = "wepbug@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+transformer-research = "transformer_research:main"
+
+[build-system]
+requires = ["uv_build>=0.9.8,<0.10.0"]
+build-backend = "uv_build"
